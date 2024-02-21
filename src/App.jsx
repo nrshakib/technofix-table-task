@@ -25,8 +25,10 @@ const App = () => {
   ];
 
   return (
-    <div>
-      <h1>Table of Books</h1>
+    <div className="my-5 mx-8">
+      <h1 className="pb-5 text-center text-2xl font-bold uppercase text-blue-950">
+        Table of Books
+      </h1>
       <Table data={dataArray} />
     </div>
   );
