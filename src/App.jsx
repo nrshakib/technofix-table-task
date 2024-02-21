@@ -21,7 +21,24 @@ const App = () => {
       status: "Out of Stock",
       action: "Notify Me",
     },
-    // Add more data objects as needed
+    {
+      title: "Book 3",
+      categories: "History",
+      price: "$20",
+      date: "2021-02-10",
+      author: "Author 3",
+      status: "Available",
+      action: "Book Now",
+    },
+    {
+      title: "Book 4",
+      categories: "Fiction",
+      price: "$15",
+      date: "2023-08-20",
+      author: "Author 4",
+      status: "Available",
+      action: "Book Now",
+    },
   ];
 
   return (
